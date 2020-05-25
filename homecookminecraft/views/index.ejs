@@ -10,12 +10,14 @@
   </head>
   <body>
     <div id="skin_container"></div>
-    <p><a href="/todos">一个简单的「TODO 列表」示例</a></p>
+    <div id="nav">
+      <p><a href="/todos">一个简单的「TODO 列表」示例</a></p>
+    </div>
     <script>
     let skinViewer = new skinview3d.SkinViewer({
 			domElement: document.getElementById("skin_container"),
-			width: 900,
-			height: 900,
+			width: 400,
+			height: 600,
 			skinUrl: "/skin/call-me-naive-but-i-guess-i-thought-if-the-world-was-ending-.png"
 		});
 
